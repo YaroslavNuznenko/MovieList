@@ -1,0 +1,31 @@
+.Button {
+    position: relative;
+    border: 0;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+
+.Remove {
+    color: rgb(197, 77, 77);
+    background: #fff0f0;
+    border: 1px solid #b19e9e;
+}
+
+.Remove:hover{
+    background: #fbdfdf;
+}
+
+
+.Add {
+    color: rgb(77, 183, 197);
+    background: #f0f3ff;
+    border: 1px solid #9f9eb1;
+}
+.Add:hover{
+    background: #e6dffb;
+}

@@ -1,0 +1,13 @@
+.GenreList{
+    width: 20%;
+    background: rgb(212, 195, 195);
+    border-radius: 10px;
+    flex-shrink: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    list-style: none;
+}
+

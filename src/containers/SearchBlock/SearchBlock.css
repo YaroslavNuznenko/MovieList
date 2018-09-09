@@ -1,0 +1,68 @@
+.SearchBlock{
+    position: relative;
+    width: 85%;
+    margin: 40px auto;
+
+}
+.SearchBlock:focus{
+    background: gold;
+}
+
+.Input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.SearchedList.active{
+    display: block;
+}
+.SearchedList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.75); 
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+
+.SearchedListItem{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 10px 5px; */
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+
+.SearchedListItem p{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.SearchedListItem span{
+    font-size: 16px;
+    color: #7065dd;
+}
+
+
+
+.SearchedListItem:hover{
+    background: #eee;
+}

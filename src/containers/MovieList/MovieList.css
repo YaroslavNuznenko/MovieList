@@ -1,0 +1,35 @@
+
+.MovieList {
+    display: inline-flex;
+    vertical-align: top;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    margin: auto;
+    width: 80%;
+}
+
+
+
+.Movie {
+    width: calc(33% - 15px);
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 5px;
+    border: 1px solid;
+    box-sizing: border-box; 
+    margin: 0 7.5px 7.5px;
+    border-radius: 10px;
+}
+
+.Movie img {
+    width: 100%;
+    display: block;
+    margin: 20px auto 10px
+}
+
+
+
+.Movie ul{
+    margin-bottom: 10px;
+}

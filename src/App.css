@@ -1,0 +1,43 @@
+
+.AppContainer{
+  max-width: 1260px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+ul{
+  list-style: none;
+  padding: 0;margin: 0;
+  
+}
+
+li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.AppHeader {
+  background-color: #222;
+  height: auto;
+  padding: 20px;
+  color: white;
+
+}
+
+.AppTitle {
+  font-size: 1.5em;
+  padding: 0;margin: 0;
+}
+
+
+.AppIntro {
+  font-size: large;
+}
+
+@keyframes Applogo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

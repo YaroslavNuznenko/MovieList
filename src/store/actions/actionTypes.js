@@ -1,0 +1,10 @@
+
+
+export const ADD_MOVIE = 'ADD_MOVIE';
+export const REMOVE_MOVIE = 'REMOVE_MOVIE';
+export const MOVIES_IS_VISIBLE = 'MOVIES_IS_VISIBLE';
+
+export const INIT_GENRES = 'INIT_GENRES';
+export const SET_GENRES = 'SET_GENRES';
+export const FILTER_BY_GENRE = 'FILTER_BY_GENRE';
+export const FETCH_GENRES_FAILED = 'FETCH_GENRES_FAILED';
